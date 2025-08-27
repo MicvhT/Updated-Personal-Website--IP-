@@ -1,8 +1,11 @@
 import React from 'react';
+import Navbar from './components/navbar.jsx'
 import './index.css';
 
 export default function Home(){
    return ( 
-   <h1 className='text-[3rem] text-green-500'> Testing </h1>
+    <div>
+        <Navbar />
+    </ div>
     );
 }
